@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<map>
+  <toolEnabled>true</toolEnabled>
+  <mappings>
+    <mapMapping>
+      <sourceLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>443</port>
+        <path>/app/trak/dist/trak.fc7d8b27b27573a7e9dd.js</path>
+      </sourceLocation>
+      <destLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>443</port>
+        <path>/app/trak/dist/trak.64283f550578c9f2f2fb.js</path>
+      </destLocation>
+      <preserveHostHeader>false</preserveHostHeader>
+      <enabled>true</enabled>
+    </mapMapping>
+    <mapMapping>
+      <sourceLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>443</port>
+        <path>/app/student-portal/dist/modal.5b15e8a7517c295257bc.js</path>
+      </sourceLocation>
+      <destLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>443</port>
+        <path>/app/student-portal/dist/modal.d169cfca7fe38e15994e.js</path>
+      </destLocation>
+      <preserveHostHeader>false</preserveHostHeader>
+      <enabled>true</enabled>
+    </mapMapping>
+    <mapMapping>
+      <sourceLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>433</port>
+        <path>/app/student-portal/dist/modal.5b15e8a7517c295257bc.css</path>
+      </sourceLocation>
+      <destLocation>
+        <protocol>https</protocol>
+        <host>storm-frontend-cdn.dandythrust.com</host>
+        <port>443</port>
+        <path>/app/student-portal/dist/modal.d169cfca7fe38e15994e.css</path>
+      </destLocation>
+      <preserveHostHeader>false</preserveHostHeader>
+      <enabled>true</enabled>
+    </mapMapping>
+  </mappings>
+</map>
