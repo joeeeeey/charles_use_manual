@@ -19,7 +19,13 @@ This project is a guide to install charles and use it([crack it](https://github.
 
 ![alt text](https://raw.githubusercontent.com/joeeeeey/charles_use_manual/master/screenshot/enable_charles_proxy_crt.png)
 
-10. Activate charles for macos 
+10. Enable charles ssl proxy
+Click the topbar of charles: Proxy => SSL PROXYING => Enable SSL.
+Add a list, eg: 
+    HOST: xxxx.com 
+    PORT: 443
+
+11. Activate charles for macos 
 
 ![alt text](https://raw.githubusercontent.com/joeeeeey/charles_use_manual/master/screenshot/charles_enable_macos_system.png)
 
