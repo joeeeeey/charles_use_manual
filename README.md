@@ -43,4 +43,12 @@ Install chrome plugin [SwitchyOmega](https://chrome.google.com/webstore/detail/p
 
 ![alt text](https://raw.githubusercontent.com/joeeeeey/charles_use_manual/master/screenshot/macos_network_proxy_config_for_charles.png)
 
-<!-- ![alt text](https://raw.githubusercontent.com/joeeeeey/simple_proxy/master/app/assets/images/mac_network_proxy_config.png) -->
+### Set https proxy in iOS device
+
+* In charles > Helper > SSL Proxying > Install certificate in mobile device.
+* Set your iOS device to use Charles as its HTTP proxy in the Settings app > Wifi settings.
+* Open Safari and browse to https://chls.pro/ssl. Safari will prompt you to install the SSL certificate.
+* If you are on iOS 10.3 or later, open the Settings.app and navigate to General > About > Certificate Trust Settings, and find the Charles Proxy certificate, and switch it on to enable full trust for it (More information about this change in iOS 10).
+* Now you should be able to access SSL websites with Charles using SSL Proxying.
+Charles supports App Transport Security (ATS) as of the 3.11.4 release.
+
